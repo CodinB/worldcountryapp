@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title>World Map</title>
+</head>
+<body >
+    <div >
+        <header class="header">
+            <div class="container title">
+                <h2>
+                    Where in the world?
+                </h2>
+                <h6><i class="fa fa-moon-o" aria-hidden="true"></i> Dark Mode</h6>
+                
+
+            </div>
+            
+        </header>
+
+        <main class="container">
+            <div class="search form-group">
+                <input style="background-color: hsl(209, 23%, 22%); color: hsl(0, 0%, 100%); border-radius: 5px; border: 0; font-family: FontAwesome;" type="text" placeholder="&#xf002 search for a country..." >
+                <!-- <input style="background-color: hsl(209, 23%, 22%); color: hsl(0, 0%, 100%); border-radius: 5px; border: 0;" type="text" placeholder="Filter by region"> -->
+                <select class="form-control" name="" style="width: auto; background-color: hsl(209, 23%, 22%); color: hsl(0, 0%, 100%); border-radius: 5px; border: 0;" value="" id="region"> 
+                    <option value="" selected>Filter by Region</option>
+                    <option value="">Africa</option>
+                    <option value="">America</option>
+                    <option value="">Asia</option>
+                    <option value="">Europe</option>
+                    <option value="">Oceania</option>
+                </select>
+            </div>
+
+            <div id="countries-div" class="countries">
+                
+            </div>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

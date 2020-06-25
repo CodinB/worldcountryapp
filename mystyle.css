@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+    font-family: Nunito Sans
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: hsl(209, 23%, 22%);
+    
+}
+
+.search{
+    /* background-color: hsl(209, 23%, 22%); */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countries{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+}
+
+.country-box img{
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 270px;
+}
+
+.country-box p{
+    padding-left: 20px;
+    
+}
+
+.country-box{
+    border-radius: 5px;
+}
+
+.country-details{
+    max-width: 270px;
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+
+::placeholder{
+    color:hsl(0, 0%, 100%);
+    opacity: 1;
+}
